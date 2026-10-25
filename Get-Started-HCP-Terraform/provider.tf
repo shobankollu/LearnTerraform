@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "kunduso"
+    organization = "shobanso"
     workspaces {
       name = "app-two-layer-0"
     }
@@ -20,7 +20,7 @@ provider "aws" {
   secret_key = var.secret_key
   default_tags {
     tags = {
-      Source = "https://github.com/kunduso/LearnTerraform"
+      Source = "https://github.com/shobankollu/LearnTerraform"
     }
   }
 }
